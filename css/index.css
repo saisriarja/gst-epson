@@ -58,6 +58,10 @@ footer .icon-col{
     .high-col{
         border-right: none;
     }
+    .footer-icon a{
+        color: black;
+        font-size: 18px;
+    }
 }
 @media (max-width:768px){
     .high-col{
