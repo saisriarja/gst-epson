@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.gallery-section .bg-1{
+    background-image: linear-gradient(to right, #3076d8 , #8387ac);
+}
+
+.gallery-section .bg-2{
+    background-image: linear-gradient(to right, #7c85b0 , #bd9190);
+}
+
+.gallery-section .bg-3{
+    background-image: linear-gradient(to right, #6c81b8 , #b08f96);
+}
+
+.gallery-section .bg-4{
+    background-image: linear-gradient(to right, #aa8e9a ,#d79682);
+}
+.card-col-text p{
+    font-size: 36px;
+}
+.print-text-section p{
+    font-size: 39px;
+    word-spacing: 6px;
+}
+.high-col{
+    border-right: 2px solid black;
+}
+.high-col p, .high-col-1 p{
+    font-size: 28px;
+}
