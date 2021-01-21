@@ -24,13 +24,22 @@ body{
 .card-col-text p{
     font-size: 36px;
 }
-/* .print-text-section p{
-    font-size: 39px;
-    word-spacing: 6px;
-} */
 .high-col{
     border-right: 2px solid black;
 }
 .high-col p, .high-col-1 p{
     font-size: 28px;
+}
+@media (max-width:576px){
+    .print-text-section h1{
+        font-size: 22px;
+    }
+    .high-col{
+        border-right: none;
+    }
+}
+@media (max-width:768px){
+    .high-col{
+        border-right: none;
+    }
 }
