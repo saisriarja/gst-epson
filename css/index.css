@@ -30,6 +30,27 @@ body{
 .high-col p, .high-col-1 p{
     font-size: 28px;
 }
+footer{
+    background: #d3cfd0;
+}
+footer .icon-col{
+    border-top: 2px solid black;
+}
+.footer-content p{
+   font-size: 17px;
+}
+.footer-logo a{
+    color: black;
+    font-size: 22px;
+}
+.footer-icon i{
+    color: #3d5a98;
+    font-size: 36px;
+}
+.footer-icon a{
+    color: black;
+    font-size: 22px;
+}
 @media (max-width:576px){
     .print-text-section h1{
         font-size: 22px;
